@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Virtual env
+.venv/
+
+# Large artifacts not tracked
+runs/
+datasets/
+*.pt
+*.onnx
+*.tflite
+
+# Outputs
+annotated_*.mp4
+*.mp4
+*.mov
+*.avi
+usage_log*.csv
+usage_summary*.txt
+
+# Misc
+*.zip

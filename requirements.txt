@@ -1,0 +1,16 @@
+# Core runtime
+ultralytics>=8.2.0
+opencv-python>=4.9.0.80
+numpy>=1.24
+flask>=2.3
+
+# Dataset tools (only needed for scripts/download_coco_phone_fiftyone.py)
+fiftyone>=0.23.7
+
+# Optional (enable proximity filtering in detect_phone_usage.py). Install only if your env supports it.
+# mediapipe>=0.10
+
+# Notes
+# - ultralytics will install a compatible torch automatically. On Apple Silicon, MPS will be used by default.
+# - ffmpeg is recommended (system package) for audio remux in annotated videos:
+#   macOS: brew install ffmpeg
