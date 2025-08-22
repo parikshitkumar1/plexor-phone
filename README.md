@@ -9,7 +9,7 @@ This repository contains scripts to train and run a YOLO-based detector for hand
 
 ## 0) Download Required Assets (from Google Drive)
 
-Since large artifacts are not included in this repo, please download the prepared assets from Google Drive (link to be added):
+Since large artifacts are not included in this repo, please download the prepared assets from Google Drive (https://drive.google.com/file/d/1nqyg7qD6fXMl8T8SicEL2FxfHLmEJQeV/view?usp=sharing):
 
 - `datasets/coco_phone_yolo/` (cleaned COCO → phone-only YOLO dataset)
 - `runs/detect/` (trained model experiments; includes `weights/best.pt`)
